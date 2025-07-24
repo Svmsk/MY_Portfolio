@@ -24,7 +24,10 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <div class="profile-image-container">
-                <img src="profile.jpg" alt="SVM Sai Krishna Borusu" class="profile-image">
+                <img src="profile.jpg" alt="SVM Sai Krishna Borusu" class="profile-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <div class="profile-fallback" style="display: none;">
+                    <div class="profile-initials">SVK</div>
+                </div>
                 <div class="profile-ring"></div>
             </div>
             <h1>SVM Sai Krishna Borusu</h1>
